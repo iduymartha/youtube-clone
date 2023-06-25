@@ -17,15 +17,37 @@
   }
 }
 
+@media (max-width: 750px) {
+
+  .video-author, .video-views {
+    font-size: 2vw;
+  }
+}
+
 @media (min-width: 751px) and (max-width: 1129px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .title-video{
+    font-size: 14px;
+  }
+  .video-author, .video-views{
+    font-size: 12px;
   }
 }
 
 @media (min-width: 1130px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .video-author, .video-views {
+    font-size: 12px;
+  }
+
+  .title-video {
+    font-size: 14px;
   }
 }
 
@@ -69,14 +91,13 @@
 }
 
 .video-author {
-  font-size: 13px;
+  
   margin-bottom: 6px;
   color: #606060;
 }
 
 .video-views {
   color: #606060;
-  font-size: 13px;
 }
 
 .channel-picture {
